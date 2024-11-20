@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="home respon.css">
+</head>
+<style>.login-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  /* background-color: #fff; */
+  border-radius: 10px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a73e8;
+  margin-bottom: 20px;
+}
+
+.login-container h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.login-container p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.social-button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  color: #333;
+  border: 1px solid #ddd;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-button img {
+  height: 18px;
+  margin-right: 8px;
+}
+
+.divider {
+  position: relative;
+  margin: 20px 0;
+  color: #888;
+  font-size: 14px;
+}
+
+.divider:before,
+.divider:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.divider:before {
+  left: 0;
+}
+
+.divider:after {
+  right: 0;
+}
+
+.input-field {
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input-field .icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  cursor: pointer;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #1a73e8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.signup {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.signup a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}</style>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <!-- Services Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              SERVICES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <li><a class="dropdown-item" href="#">Web development</a></li>
+              <li><a class="dropdown-item" href="#">App development</a></li>
+              <li><a class="dropdown-item" href="#">Video Editing</a></li>
+            </ul>
+          </li>
+          <!-- Industries Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Industries
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <li><a class="dropdown-item" href="#">Industry 1</a></li>
+              <li><a class="dropdown-item" href="#">Industry 2</a></li>
+              <li><a class="dropdown-item" href="#">Industry 3</a></li>
+            </ul>
+          </li>
+          <!-- Products Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+              <li><a class="dropdown-item" href="#">Product 1</a></li>
+              <li><a class="dropdown-item" href="#">Product 2</a></li>
+              <li><a class="dropdown-item" href="#">Product 3</a></li>
+            </ul>
+          </li>
+          <!-- Engagement Models Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Engagement Models
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+              <li><a class="dropdown-item" href="#">Model 1</a></li>
+              <li><a class="dropdown-item" href="#">Model 2</a></li>
+              <li><a class="dropdown-item" href="#">Model 3</a></li>
+            </ul>
+          </li>
+          <!-- Login Link -->
+         <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  sign in
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="login-container">
+          <div class="logo">com log</div>
+          <p>Welcome back! Select method to log in:</p>
+      
+          <div class="social-buttons">
+            <button class="social-button">
+              <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google logo">
+              Google
+            </button>
+            <button class="social-button">
+              <img src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png" alt="Facebook logo">
+              Facebook
+            </button>
+          </div>
+      
+          <div class="divider">or continue with email</div>
+      
+          <div class="input-field">
+            <input type="email" placeholder="Email">
+          </div>
+      
+          <div class="input-field">
+            <input type="password" placeholder="Password">
+            <span class="icon">👁️</span>
+          </div>
+      
+          <div class="remember-forgot">
+            <label><input type="checkbox"> Remember me</label>
+            <a href="#">Forgot Password?</a>
+          </div>
+      
+          <button class="login-btn">Log in</button>
+      
+          <div class="signup">
+            Don't have an account? <a href="registration .html">Create an account</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+
+
+
+  
+  <video autoplay loop muted playsinline class="back-video">
+    <source src="New York Office Tour.mp4" type="video/mp4">
+  </video>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <div class="content">
+    <h1>No Magic. Just Logic.</h1>
+    <p>
+      We’re not “unicorns” or “development ninjas” building the <br> “app of your dreams.” We’re a team of
+      veteran <br> developers, technical experts, and strategists with a <br> passion for product
+      perfection.
+    </p>
+    <a href="#">See how we can help</a>
+  </div>
+  <div class="contaner1">
+    <img src="jason-goodman-6awfTPLGaCE-unsplash-min.webp" alt="">
+    <div class="box">
+      <h2>Powerful apps, websites, and <br> products. Start-to-finish.
+      </h2>
+      <p> Established in 2006, PureLogics is a leading <br> developer of digital products for brands big and <br>
+        small.
+        Built on a reputation for reliability, we take <br> pride in our ability to build and maintain every
+        app, <br>
+        website, mobile product, widget, e-commerce tool, <br> and enterprise portal we engineer. We believe in
+        our <br>
+        products and stand by the quality and workmanship <br> for life, no more, no less.</p>
+
+      <a href="#" class="button">
+        Get to know us better
+        <span class="icon"></span>
+      </a>
+      <img src="art-2.svg" alt="Description of image" class="your-class-name">
+
+    </div>
+
+  </div>
+
+  <h4>Hire us to cover any skill gaps or project needs.</h4>
+
+  <div class="container2">
+    <div class="box3">
+      <h5>Level up my team</h5>
+      <p>Need to fill gaps in your development <br> team or looking for specific skill sets? <br> PureLogics can
+        help
+        augment your <br> team for fast, efficient success.</p>
+      <button class="custom-button">
+        I need this
+        <span class="icon"></span>
+      </button>
+      <img src="levelup.svg" alt="">
+
+    </div>
+    <div class="box3">
+      <h5> All-in-one Solution </h5>
+      <p>Have the idea but no team? We’re <br> capable of providing the “full package” <br> from developers to
+        project
+        managers <br> so you can focus on your business <br> goals.</p>
+
+      <button class="custom-button">
+        I need this
+        <span class="icon"></span>
+      </button>
+      <span>
+        <img src="allinone.svg" alt="Description of image" width="100" height="100">
+      </span>
+
+    </div>
+
+
+
+  </div>
+
+
+  <div class="grid-container">
+    <div class="box4" data-url="services.html"></div>
+    <div class="box4" data-url="services.html"></div>
+    <div class="box4" data-url="services.html"></div>
+    <div class="box4" data-url="services.html"></div>
+    <div class="box4" data-url="services.html"></div>
+    <div class="box4" data-url="services.html"></div>
+    <div class="box4" data-url="services.html"></div>
+    <div class="box4" data-url="services.html"></div>
+    <img src="art-4.svg" alt="">
+</div>
+
+
+  <div class="bolg_container">
+
+    <img src="jason-goodman-6awfTPLGaCE-unsplash-min.webp" alt="">
+    <h1>Metro by T-Mobile</h1>
+    <p>Metro by T-Mobile (formerly known as MetroPCS) <br> is one of America’s largest telecommunication <br>
+      company, that
+      serves top markets across the US, <br> with millions of people enjoying their value-added <br> cellular
+      services.
+      PureLogics helped the client <br> meet their business goals by creating an <br>impeccable online system that
+      lets
+      their dealers <br> order what they need fast and without any hassle.</p>
+    <button class="button">
+      View all of our work
+      <span class="icon"></span>
+    </button>
+
+  </div>
+  <img src="background-4@2x.png" alt="Description of image" class="background">
+  <img src="art-5.svg" alt="Description of image" class="background2">
+<h6>Meet our clients.</h6>
+  <div class=" client-container">
+
+
+    <img src="jason-goodman-6awfTPLGaCE-unsplash-min.webp" alt="">
+    <img src="jason-goodman-6awfTPLGaCE-unsplash-min.webp" alt="">
+    <img src="jason-goodman-6awfTPLGaCE-unsplash-min.webp" alt="">
+    <img src="jason-goodman-6awfTPLGaCE-unsplash-min.webp" alt="">
+
+    <button class="button"> View all of our work</button>
+
+  </div>
+  <div class="lets-talk">
+    <h1>Schedule your free 30 <br>minutes call with one <br> of our experts today.</h1>
+    <p>We value long-term business relationships,
+      and <br> we’re guessing you do too.</p>
+      
+      <button class="button"> let's talk</button>
+  </div>
+
+
+
+
+
+  <footer>
+    <div class="container-footer " style="position: relative;left: 143px;top: 150px;font-size: 23px;width: 200px;">
+      <div class="contact-info">
+        <div><img src="call-1.svg" alt="Phone"> +1(650) 209-4786</div>
+
+      </div>
+
+      <div class="address">
+        <img src="location-1.svg" alt="Location"> 1140 6th Ave, fl 9th<br> New York, NY 10036
+      </div>
+
+      <div class="social-icons">
+        <a href="#"><img src="Fackebook-01.svg" alt="Facebook"></a>
+        <a href="#"><img src="Linkedin-01.svg" alt="LinkedIn"></a>
+        <a href="#"><img src="Twitter-01.svg" alt="Twitter"></a>
+        <a href="#"><img src="Youtube.svg" alt="YouTube"></a>
+        <a href="#"><img src="Instagram (2).svg" alt="Instagram"></a>
+      </div>
+
+      <div class="copyright">
+        © 2024 PURELOGICS
+      </div>
+    </div>
+    <div class="subscription-box">
+      <h2>SUBSCRIBE TO NEWS LETTER</h2>
+      <label for="email">Email<span style="color: red;">*</span></label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <button type="submit">Submit</button>
+  </div>
+  </footer>
+
+  <script>
+    // Select all elements with the class "box4"
+    const boxes = document.querySelectorAll('.box4');
+
+    // Add click event listener to each box
+    boxes.forEach(box => {
+        box.addEventListener('click', () => {
+            // Get the URL from the data-url attribute and navigate to it
+            const url = box.getAttribute('data-url');
+            if (url) {
+                window.location.href = url;
+            }
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>

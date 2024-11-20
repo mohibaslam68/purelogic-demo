@@ -1,0 +1,483 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .contaner1 {
+        position: relative;
+        top: 277px;
+        width: auto;
+    }
+
+    .contaner1 img {
+        width: 483px;
+        height: 254px;
+        position: relative;
+        left: 48px;
+        top: 79px;
+    }
+
+    .box {
+        position: relative;
+        top: 263px;
+        left: -24px;
+    }
+
+    .box p {
+        font-size: 19px;
+        width: 451px;
+        height: 196px;
+        position: relative;
+        left: -7px;
+    }
+
+    h2 {
+        font-size: 31px;
+        position: relative;
+        left: -7px;
+    }
+
+    .box .your-class-name {
+        position: absolute;
+        /* bottom: 110px; */
+        z-index: -1;
+        width: 470px;
+        height: 209px;
+        left: 21px;
+        top: -5px;
+    }
+
+    h4 {
+        position: relative;
+        top: 693px;
+        left: 22px;
+        font-size: 34px;
+    }
+
+    .container2 {
+        width: auto;
+        background-color: #F7F7F7;
+        height: 500px;
+        position: relative;
+        top: 800
+    }
+
+    .box3 p {
+        font-size: 23px;
+    }
+
+    .box3 img {
+        position: relative;
+        left: 127px;
+    }
+
+    .box3 span img {
+        position: absolute;
+        left: 300px;
+    }
+
+    .box4 {
+        width: 214px;
+        height: 300px;
+        background-color: #F0F0F0;
+    }
+
+    .grid-container {
+        position: relative;
+        left: 15px;
+        gap: 24px;
+    }
+
+    .grid-container img {
+        position: absolute;
+        left: 723px;
+        top: 624px;
+    }
+
+    .background {
+        width: 654px;
+        height: 343px;
+        position: relative;
+        top: 631px;
+    }
+
+    .bolg_container img {
+
+        width: 340px;
+        height: 427px;
+        position: relative;
+        left: 15px;
+        top: 144px;
+    }
+
+    .bolg_container h1 {
+        display: none;
+
+    }
+
+    .bolg_container p {
+        position: relative;
+        top: 134px;
+        right: -67px;
+        width: 6722px;
+        font-size: 20px;
+
+
+    }
+
+    .bolg_container {
+        width: 894px;
+        /* background-color: aliceblue; */
+        position: relative;
+        left: -0px;
+    }
+
+    .bolg_container button {
+        position: absolute;
+        left: 396px;
+        /* top: 378px; */
+        bottom: -88px;
+    }
+
+    .background2 {
+        display: none;
+    }
+
+    .client-container {
+        flex-wrap: wrap-reverse;
+        gap: 20px;
+        top: 880px;
+        left: -110px;
+        width: auto;
+    }
+
+    .client-container button {
+        width: 256px;
+        height: 50px;
+        position: relative;
+        top: 282px;
+        right: -111px;
+    }
+
+    h6 {
+        position: relative;
+        top: 908px;
+        left: 330px;
+    }
+
+    .lets-talk {
+        width: auto;
+        height: 250px;
+        position: relative;
+        top: 950px;
+    }
+
+    .lets-talk h1 {
+        position: relative;
+        left: 18px;
+        font-size: 28px;
+        top: 61px;
+        font-weight: bold;
+    }
+
+    .lets-talk p {
+        position: relative;
+        left: 432px;
+        font-size: 21px;
+        top: -43px;
+
+    }
+
+    .lets-talk button {
+        position: relative;
+        left: 435px;
+        top: -16px;
+    }
+
+    footer {
+        width: auto;
+    }
+
+    .subscription-box input[type="email"] {
+        width: 475px;
+    }
+
+    .subscription-box button {
+        position: relative;
+        left: 336px;
+        top: 37px;
+    }
+}
+
+/* MOBILE SCREEEN */
+@media screen and (max-width: 768px) {
+    .content {}
+
+    .content h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .content p {
+        font-size: 17px;
+    }
+
+    .content a {
+        text-decoration: none;
+        display: inline-block;
+        color: #000000;
+        font-size: 20px;
+        border: 2px solid #000000;
+        padding: 8px 27px;
+        border-radius: 50px;
+        background-color: #fff
+    }
+
+    .contaner1 h2 {
+        position: relative;
+        font-size: 22px;
+        width: 600px;
+        /* left: -305px; */
+        top: -100px;
+    }
+
+    .box {
+        position: relative;
+        left: -210px;
+        width: auto;
+        top: 99px;
+    }
+
+    .box .your-class-name {
+        display: none;
+    }
+
+    .button {
+        padding: 11px 33px;
+        bottom: 90px;
+    }
+
+    .contaner1 img {
+        position: relative;
+        left: 364px;
+        width: 503px;
+        height: 299px;
+        top: 355px;
+    }
+
+    h4 {
+        position: relative;
+        top: 778px;
+        left: 16px;
+        font-size: 25px
+    }
+
+    .container2 {
+        display: grid;
+    }
+
+    .box3 {
+        height: 380px;
+    }
+
+    h5 {
+        position: relative;
+        font-size: 25px;
+        font-weight: bold;
+        left: 120px;
+        top: 54px;
+    }
+
+    .box3 p {
+        position: relative;
+        left: 120px;
+        top: 77px;
+        font-size: 21px;
+
+    }
+
+    .box3 img {
+        position: relative;
+        top: 132px;
+        left: 213px;
+    }
+
+    .custom-button {
+        position: relative;
+        top: 77px;
+        left: 124px;
+    }
+
+    .box3 span img {
+        position: absolute;
+        top: 280px;
+        left: 373px;
+    }
+
+    .grid-container {
+        position: relative;
+        width: auto;
+        left: 0px;
+    }
+
+    .grid-container img {
+        display: none;
+    }
+
+    .box4 {
+        width: 394px;
+        height: 365px;
+        background-color: #F0F0F0;
+        position: relative;
+        top: 153px;
+        left: 51px;
+    }
+
+
+    .bolg_container {
+        position: relative;
+        top: 1080px;
+        /* left: 150px; */
+        display: grid;
+        width: auto;
+    }
+
+    .background {
+        position: relative;
+        top: 855px;
+        width: 486px;
+        height: 787px;
+    }
+
+    .bolg_container h1 {
+        position: relative;
+        left: -125px;
+        top: 121px;
+        font-size: 21px;
+    }
+
+    .bolg_container p {
+        position: relative;
+        top: 131px;
+        left: -125px;
+        font-size: 18px;
+    }
+
+    .bolg_container img {
+        position: relative;
+        left: -130px;
+        top: 859px;
+        width: 439px;
+        height: 377px;
+
+    }
+
+    .bolg_container button {
+        width: 322px;
+        height: 55px;
+        position: relative;
+        left: -126px;
+        top: 131px;
+    }
+
+    h6 {
+        position: relative;
+        left: 118px;
+        top: 638px;
+    }
+
+    .client-container {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 678px;
+        left: -117px;
+        justify-content: center;
+
+        gap: 41px;
+
+
+    }
+
+    .lets-talk h1 {
+        position: relative;
+        left: 137px;
+        top: 16px;
+        color: #00235A;
+        font-size: 20px;
+    }
+
+    .lets-talk p {
+        position: relative;
+        left: 71px;
+        font-size: 18px;
+        top: 21px;
+        color: #2E42F8;
+    }
+
+    .lets-talk button {
+        position: relative;
+        left: 104px;
+        padding: 12px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        padding: 13px 80px;
+        top: 31px;
+    }
+
+    .client-container button {
+        width: 256px;
+        height: 50px;
+        position: relative;
+        top: 69px;
+        left: 118px;
+    }
+
+    .contact-info,
+    .address {
+        position: relative;
+        left: -89px;
+        top: -68px;
+    }
+
+    .social-icons,
+    .copyright {
+        position: relative;
+        left: -97px;
+        top: 136px;
+    }
+
+    .subscription-box {
+        position: relative;
+        /* top: 15px; */
+        top: 20px;
+        left: -293px;
+    }
+
+    .subscription-box input[type="email"] {
+        /* width: 100%÷; */
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 1em;
+        position: relative;
+        left: 337px;
+        top: 24px;
+        width: 400px;
+    }
+
+    .subscription-box button {
+        width: 134px;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: #142d53;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1em;
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+        left: 338px;
+        top: 37px;
+    }
+    .bolg_container{
+        
+    }
+}

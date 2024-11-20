@@ -1,0 +1,51 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container{
+    position: relative;
+        top: 30px;
+        gap: 5px;
+    }
+    
+    .services {
+     
+            position: relative;
+            left: -102px;
+     }
+        .enquiry-form {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 388px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .services img {
+            width: 70%;
+            height: 241px;
+            background-color: #eee;
+            display: block;
+            margin-top: -19px;
+            margin-left: 67px;
+          }
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    footer {
+        width: auto;
+    }
+
+    .subscription-box input[type="email"] {
+        width: 475px;
+    }
+
+    .subscription-box button {
+        position: relative;
+        left: 336px;
+        top: 37px;
+    }
+
+

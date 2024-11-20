@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="142.986" height="106.839" viewBox="0 0 142.986 106.839">
+  <g id="engagement2_icon" data-name="engagement2 icon" transform="translate(-3187.025 -2081.587)">
+    <g id="Rectangle_75" data-name="Rectangle 75" transform="translate(3248.753 2138.851)" fill="none" stroke="#2e42f8" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="3 5">
+      <rect width="68.928" height="29.285" stroke="none"/>
+      <rect x="1" y="1" width="66.928" height="27.285" fill="none"/>
+    </g>
+    <rect id="Rectangle_76" data-name="Rectangle 76" width="68.928" height="29.285" transform="translate(3261.082 2159.141)" fill="#14f595"/>
+    <g id="Rectangle_77" data-name="Rectangle 77" transform="translate(3209.11 2101.766)" fill="none" stroke="#2e42f8" stroke-miterlimit="10" stroke-width="2">
+      <rect width="29.285" height="29.285" stroke="none"/>
+      <rect x="1" y="1" width="27.285" height="27.285" fill="none"/>
+    </g>
+    <g id="Rectangle_78" data-name="Rectangle 78" transform="translate(3248.753 2101.766)" fill="none" stroke="#2e42f8" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="3 5">
+      <rect width="29.285" height="29.285" stroke="none"/>
+      <rect x="1" y="1" width="27.285" height="27.285" fill="none"/>
+    </g>
+    <rect id="Rectangle_79" data-name="Rectangle 79" width="29.285" height="29.285" transform="translate(3248.753 2081.587)" fill="#14f595"/>
+    <g id="Rectangle_80" data-name="Rectangle 80" transform="translate(3288.396 2101.766)" fill="none" stroke="#2e42f8" stroke-miterlimit="10" stroke-width="2">
+      <rect width="29.285" height="29.285" rx="14.642" stroke="none"/>
+      <rect x="1" y="1" width="27.285" height="27.285" rx="13.642" fill="none"/>
+    </g>
+    <g id="Rectangle_81" data-name="Rectangle 81" transform="translate(3209.11 2138.851)" fill="none" stroke="#2e42f8" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="3 5">
+      <rect width="29.285" height="29.285" rx="14.642" stroke="none"/>
+      <rect x="1" y="1" width="27.285" height="27.285" rx="13.642" fill="none"/>
+    </g>
+    <rect id="Rectangle_82" data-name="Rectangle 82" width="29.285" height="29.285" rx="14.642" transform="translate(3187.025 2138.851)" fill="#14f595"/>
+    <line id="Line_112" data-name="Line 112" x2="22.085" transform="translate(3201.667 2153.494)" fill="none" stroke="#2e42f8" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_42" data-name="Path 42" d="M3274.54,2262.481l3.586,3.586-3.615,3.615" transform="translate(-54.374 -112.427)" fill="none" stroke="#2e42f8" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_113" data-name="Line 113" y2="22.085" transform="translate(3263.556 2096.229)" fill="none" stroke="#2e42f8" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_43" data-name="Path 43" d="M3386.49,2169.1l-3.586,3.586-3.615-3.615" transform="translate(-119.495 -54.374)" fill="none" stroke="#2e42f8" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_44" data-name="Path 44" d="M3453,2285.542v-.1a15.514,15.514,0,0,0-15.617-15.514h0" transform="translate(-155.6 -117.054)" fill="none" stroke="#2e42f8" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_45" data-name="Path 45" d="M3439.868,2267.692l-3.586-3.586,3.615-3.615" transform="translate(-154.916 -111.19)" fill="none" stroke="#2e42f8" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>
